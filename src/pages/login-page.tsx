@@ -26,7 +26,7 @@ const LoginPage: React.FC<LoginPageProps> = (props: any) => {
                 props.history.push('/Main');
             }
         }
-    });
+    }, []);
 
 
     const handleSubmit = async (e: any) => {
